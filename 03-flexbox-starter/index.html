@@ -22,19 +22,20 @@
          all still in normal document flow, everything just stacking block
          by block. That's what Flexbox is for. -->
 
-    <header>
-      <div>
-        <a href="index.html">
-          <span aria-hidden="true"></span>
+    <header >
+      <div class="mx-auto flex max-w-5xl flex-wrap items-center gap-4 px-5 py-4">
+        <a href="index.html"
+          class="flex items-center font-display text-xl font-black tracking-tight text-ink no-underline">
+          <span aria-hidden="true" class="mr-2 size-3 rounded-full bg-green"></span>
           Compass
         </a>
-        <nav aria-label="Primary">
-          <a href="index.html" aria-current="page">Home</a>
-          <a href="find-support-services.html">Find support services</a>
+        <nav aria-label="Primary" class="contents">
+          <a href="index.html" aria-current="page" class="py-1 text-base font-bold text-ink underline">Home</a>
+          <a href="find-support-services.html" class="py-1 text-base font-bold text-ink no-underline">Find support services</a>
           <a href="student-stories.html">Student stories</a>
           <a href="accommodations-faq.html">Accommodations FAQ</a>
           <a href="events.html">Events &amp; drop-ins</a>
-          <a href="request-support.html">Request support</a>
+          <a href="request-support.html" class="ml-auto py-1 font-display text-base font-extrabold text-link no-underline">Request support</a>
         </nav>
       </div>
     </header>
@@ -47,7 +48,7 @@
            flex yet. -->
       <ul class="list-none border-t-(length:--rule) border-ink pl-0">
         <li
-          class="border-b-(length:--rule) border-ink bg-lime p-8 text-center text-on-light"
+          class="flex flex-col items-center gap-4 border-b-(length:--rule) border-ink bg-lime p-8 text-center text-on-light"
         >
           <svg
             class="h-14 w-14"
@@ -69,7 +70,7 @@
           <span class="font-display text-lg font-bold">Study skills</span>
         </li>
         <li
-          class="border-b-(length:--rule) border-ink bg-ink-deep p-8 text-center text-on-dark"
+          class="flex flex-col items-center gap-4 border-b-(length:--rule) border-ink bg-ink-deep p-8 text-center text-on-dark"
         >
           <svg
             class="h-14 w-14"
@@ -90,7 +91,7 @@
           >
         </li>
         <li
-          class="border-b-(length:--rule) border-ink bg-green p-8 text-center text-on-light"
+          class="flex flex-col items-center gap-4 border-b-(length:--rule) border-ink bg-green p-8 text-center text-on-light"
         >
           <svg
             class="h-14 w-14"
@@ -109,7 +110,7 @@
           <span class="font-display text-lg font-bold">Wellbeing</span>
         </li>
         <li
-          class="border-b-(length:--rule) border-ink bg-pink p-8 text-center text-on-light"
+          class="flex flex-col items-center gap-4 border-b-(length:--rule) border-ink bg-pink p-8 text-center text-on-light"
         >
           <svg
             class="h-14 w-14"
