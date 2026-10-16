@@ -12,12 +12,12 @@
     />
     <link rel="stylesheet" href="assets/app.css" />
   </head>
-  <body>
+  <body  class="bg-paper font-sans text-ink">
     <!-- Nothing here has a class yet. Colour, sizing, spacing, and type all
          get added by you, one utility class at a time. -->
-    <main>
-      <ul>
-        <li>
+    <main  class="py-[clamp(2rem,1.5rem+2vw,3.5rem)]">
+      <ul class="list-none border-t-(length:--rule) border-ink pl-0">
+        <li class="border-b-(length:--rule) border-ink bg-lime p-8 text-center text-on-light">
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -34,7 +34,7 @@
               d="M20 5.5c0-.83-.67-1.5-1.5-1.5H13v16h5.5c.83 0 1.5-.67 1.5-1.5v-13Z"
             />
           </svg>
-          <span>Study skills</span>
+          <span class="font-display text-lg font-bold">Study skills</span>
         </li>
         <li>
           <svg
@@ -69,7 +69,7 @@
           <span>Wellbeing</span>
         </li>
         <li>
-          <svg
+          <svg 
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -87,9 +87,9 @@
         </li>
       </ul>
     </main>
-    <footer>
-      <div>
-        <p>
+    <footer class="mt-[clamp(2.5rem,2rem+3vw,4rem)]">
+      <div class="mx-auto max-w-5xl px-5">
+        <p  class="border-(length:--rule) border-ink bg-pink px-5 py-4 font-display text-[1.0625rem] font-extrabold text-on-light">
           Compass is not an emergency or crisis service. If you need urgent
           help, contact the Student Health Centre, ring the Samaritans free on
           116 123, or call the emergency services on 112 or 999.
